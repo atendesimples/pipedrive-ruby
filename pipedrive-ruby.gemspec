@@ -72,10 +72,10 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<httparty>, [">= 0"])
-      s.add_runtime_dependency(%q<json>, [">= 1.7.7"])
+      s.add_runtime_dependency(%q<json>, [">= 1.8.6"])
       s.add_runtime_dependency(%q<multi_xml>, [">= 0.5.2"])
       s.add_runtime_dependency(%q<webmock>, [">= 0"])
-      s.add_runtime_dependency(%q<coveralls>, [">= 0"])
+      s.add_development_dependency(%q<coveralls>, [">= 0"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
       s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
       s.add_development_dependency(%q<bundler>, [">= 1.0.0"])
